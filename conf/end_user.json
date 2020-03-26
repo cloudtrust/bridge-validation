@@ -1,0 +1,7 @@
+{
+  "MGMT_GetClients": {
+    "validation": {
+      "*": {}
+    }
+  }
+}

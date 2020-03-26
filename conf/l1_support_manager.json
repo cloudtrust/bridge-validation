@@ -1,0 +1,113 @@
+{
+  "MGMT_GetRealms": {
+    "validation": {}
+  },
+  "MGMT_GetRequiredActions": {
+    "validation": {
+      "*": {}
+    }
+  },
+  "MGMT_DeleteUser": {
+    "validation": {
+      "end_user": {},
+      "l1_support_agent": {}
+    }
+  },
+  "MGMT_GetUser": {
+    "validation": {
+      "end_user": {},
+      "l1_support_agent": {}
+    }
+  },
+  "MGMT_UpdateUser": {
+    "validation": {
+      "end_user": {},
+      "l1_support_agent": {}
+    }
+  },
+  "MGMT_GetUsers": {
+    "validation": {
+      "end_user": {},
+      "l1_support_agent": {}
+    }
+  },
+  "MGMT_CreateUser": {
+    "validation": {
+      "l1_support_agent": {}
+    }
+  },
+  "MGMT_GetRolesOfUser": {
+    "validation": {
+      "end_user": {},
+      "l1_support_agent": {}
+    }
+  },
+  "MGMT_GetGroupsOfUser": {
+    "validation": {
+      "end_user": {},
+      "l1_support_agent": {}
+    }
+  },
+  "MGMT_ResetPassword": {
+    "validation": {
+      "end_user": {},
+      "l1_support_agent": {}
+    }
+  },
+  "MGMT_ExecuteActionsEmail": {
+    "validation": {
+      "end_user": {},
+      "l1_support_agent": {}
+    }
+  },
+  "MGMT_SendNewEnrolmentCode": {
+    "validation": {
+      "end_user": {}
+    }
+  },
+  "MGMT_SendReminderEmail": {
+    "validation": {
+      "end_user": {},
+      "l1_support_agent": {}
+    }
+  },
+  "MGMT_ResetSmsCounter": {
+    "validation": {
+      "end_user": {},
+      "l1_support_agent": {}
+    }
+  },
+  "MGMT_GetCredentialsForUser": {
+    "validation": {
+      "end_user": {},
+      "l1_support_agent": {}
+    }
+  },
+  "MGMT_DeleteCredentialsForUser": {
+    "validation": {
+      "end_user": {},
+      "l1_support_agent": {}
+    }
+  },
+  "MGMT_GetRoles": {
+    "validation": {
+      "*": {}
+    }
+  },
+  "MGMT_GetGroups": {
+    "validation": {
+      "*": {}
+    }
+  },
+  "MGMT_GetUserRealmBackOfficeConfiguration": {
+    "validation": {
+      "*": {}
+    }
+  },
+  "EV_GetUserEvents": {
+    "validation": {
+      "end_user": {},
+      "l1_support_agent": {}
+    }
+  }
+}
