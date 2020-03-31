@@ -1,0 +1,90 @@
+{
+  "MGMT_GetRealms": {
+    "validation": {}
+  },
+  "MGMT_GetRequiredActions": {
+    "validation": {
+      "*": {}
+    }
+  },
+  "MGMT_GetUser": {
+    "validation": {
+      "end_user": {}
+    }
+  },
+  "MGMT_UpdateUser": {
+    "validation": {
+      "end_user": {}
+    }
+  },
+  "MGMT_GetUsers": {
+    "validation": {
+      "end_user": {}
+    }
+  },
+  "MGMT_GetRolesOfUser": {
+    "validation": {
+      "end_user": {}
+    }
+  },
+  "MGMT_GetGroupsOfUser": {
+    "validation": {
+      "end_user": {}
+    }
+  },
+  "MGMT_ResetPassword": {
+    "validation": {
+      "end_user": {}
+    }
+  },
+  "MGMT_ExecuteActionsEmail": {
+    "validation": {
+      "end_user": {}
+    }
+  },
+  "MGMT_SendNewEnrolmentCode": {
+    "validation": {
+      "end_user": {}
+    }
+  },
+  "MGMT_SendReminderEmail": {
+    "validation": {
+      "end_user": {}
+    }
+  },
+  "MGMT_ResetSmsCounter": {
+    "validation": {
+      "end_user": {}
+    }
+  },
+  "MGMT_GetCredentialsForUser": {
+    "validation": {
+      "end_user": {}
+    }
+  },
+  "MGMT_DeleteCredentialsForUser": {
+    "validation": {
+      "end_user": {}
+    }
+  },
+  "MGMT_GetRoles": {
+    "validation": {
+      "*": {}
+    }
+  },
+  "MGMT_GetGroups": {
+    "validation": {
+      "*": {}
+    }
+  },
+  "MGMT_GetUserRealmBackOfficeConfiguration": {
+    "validation": {
+      "*": {}
+    }
+  },
+  "EV_GetUserEvents": {
+    "validation": {
+      "end_user": {}
+    }
+  }
+}

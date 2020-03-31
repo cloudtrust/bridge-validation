@@ -1,0 +1,141 @@
+{
+  "MGMT_GetRealms": {
+    "validation": {}
+  },
+  "MGMT_GetClients": {
+    "validation": {
+      "*": {}
+    }
+  },
+  "MGMT_GetRequiredActions": {
+    "validation": {
+      "*": {}
+    }
+  },
+  "MGMT_DeleteUser": {
+    "validation": {
+      "*": {}
+    }
+  },
+  "MGMT_GetUser": {
+    "validation": {
+      "*": {}
+    }
+  },
+  "MGMT_UpdateUser": {
+    "validation": {
+      "*": {}
+    }
+  },
+  "MGMT_GetUsers": {
+    "validation": {
+      "*": {}
+    }
+  },
+  "MGMT_CreateUser": {
+    "validation": {
+      "l1_support_manager": {},
+      "registration_officer": {}
+    }
+  },
+  "MGMT_GetRolesOfUser": {
+    "validation": {
+      "*": {}
+    }
+  },
+  "MGMT_GetGroupsOfUser": {
+    "validation": {
+      "*": {}
+    }
+  },
+  "MGMT_ResetPassword": {
+    "validation": {
+      "*": {}
+    }
+  },
+  "MGMT_ExecuteActionsEmail": {
+    "validation": {
+      "*": {}
+    }
+  },
+  "MGMT_SendNewEnrolmentCode": {
+    "validation": {
+      "*": {}
+    }
+  },
+  "MGMT_SendReminderEmail": {
+    "validation": {
+      "*": {}
+    }
+  },
+  "MGMT_ResetSmsCounter": {
+    "validation": {
+      "*": {}
+    }
+  },
+  "MGMT_GetCredentialsForUser": {
+    "validation": {
+      "*": {}
+    }
+  },
+  "MGMT_DeleteCredentialsForUser": {
+    "validation": {
+      "*": {}
+    }
+  },
+  "MGMT_GetRoles": {
+    "validation": {
+      "*": {}
+    }
+  },
+  "MGMT_GetGroups": {
+    "validation": {
+      "*": {}
+    }
+  },
+  "MGMT_GetRealmCustomConfiguration": {
+    "validation": {
+      "*": {}
+    }
+  },
+  "MGMT_UpdateRealmCustomConfiguration": {
+    "validation": {
+      "*": {}
+    }
+  },
+  "MGMT_GetUserRealmBackOfficeConfiguration": {
+    "validation": {
+      "*": {}
+    }
+  },
+  "EV_GetUserEvents": {
+    "validation": {
+      "*": {}
+    }
+  },
+  "ST_GetStatistics": {
+    "validation": {
+      "*": {}
+    }
+  },
+  "ST_GetStatisticsUsers": {
+    "validation": {
+      "*": {}
+    }
+  },
+  "ST_GetStatisticsAuthenticators": {
+    "validation": {
+      "*": {}
+    }
+  },
+  "ST_GetStatisticsAuthentications": {
+    "validation": {
+      "*": {}
+    }
+  },
+  "ST_GetStatisticsAuthenticationsLog": {
+    "validation": {
+      "*": {}
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "MGMT_GetRealms": {
+    "validation": {}
+  },
+  "MGMT_GetClients": {
+    "validation": {
+      "*": {}
+    }
+  },
+  "MGMT_GetRequiredActions": {
+    "validation": {
+      "*": {}
+    }
+  },
+  "MGMT_CreateUser": {
+    "validation": {
+      "end_user": {}
+    }
+  },
+  "MGMT_SendReminderEmail": {
+    "validation": {
+      "end_user": {}
+    }
+  },
+  "MGMT_GetRoles": {
+    "validation": {
+      "*": {}
+    }
+  },
+  "MGMT_GetGroups": {
+    "validation": {
+      "*": {}
+    }
+  },
+  "MGMT_GetRealmCustomConfiguration": {
+    "validation": {
+      "*": {}
+    }
+  },
+  "MGMT_GetUserRealmBackOfficeConfiguration": {
+    "validation": {
+      "*": {}
+    }
+  }
+}
